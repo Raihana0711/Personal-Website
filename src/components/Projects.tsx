@@ -7,27 +7,30 @@ export default function Projects() {
 			<div className="flex flex-col md:flex-row gap-x-6 gap-y-2">
 				<Image
 					alt="image"
-					src="/Sporting.jpg"
+					src="/nuns.jpg"
 					className="w-full md:w-3xs aspect-video rounded-3xl object-cover"
 					width={800}
 					height={500}
 				/>
 				<div className="w-full">
-					<h4 className="font-medium text-zinc-800 dark:text-zinc-100 mb-2">3-4-3 Sporting Formation</h4>
+					<h4 className="font-medium text-zinc-800 dark:text-zinc-100 mb-2">Nun’s Dimsum Web Application</h4>
 					<p className="text-sm text-zinc-500 dark:text-zinc-300 loading-relaxed">
-						Formasi 3-4-3 merupakan sistem taktik yang menekankan keseimbangan antara pertahanan solid dan fleksibilitas serangan.
-    					Dalam skema ini, tiga bek tengah berperan menjaga area pertahanan, sementara empat gelandang mengontrol permainan di lini tengah
-    					dan dua di antaranya biasanya berfungsi sebagai wing-back yang aktif naik-turun membantu serangan maupun bertahan.
+						Nun’s Dimsum adalah aplikasi web pemesanan makanan yang saya kembangkan pada semester sebelumnya.
+						Sistem ini mendukung dua jenis pengguna, yaitu pembeli dan admin. Pembeli dapat melihat daftar menu
+						dimsum lengkap beserta harga dan gambar, kemudian melakukan pemesanan melalui aplikasi.
+						Admin memiliki akses untuk mengelola menu, memproses pesanan, serta melihat laporan transaksi secara
+						real-time untuk mengetahui pendapatan. Aplikasi ini dirancang untuk mempermudah proses pemesanan
+						makanan dan membantu pengelolaan usaha secara digital serta terstruktur.
 					</p>
 					<div className="flex items-center gap-x-2.5 mt-2">
 						<span className="px-2 py-1 bg-zinc-200 dark:bg-zinc-800 rounded-sm text-zinc-500 dark:text-zinc-300 text-xs">
-							Sporting
+							Web App
 						</span>
 						<span className="px-2 py-1 bg-zinc-200 dark:bg-zinc-800 rounded-sm text-zinc-500 dark:text-zinc-300 text-xs">
-							Formation
+							Food Ordering
 						</span>
 						<span className="px-2 py-1 bg-zinc-200 dark:bg-zinc-800 rounded-sm text-zinc-500 dark:text-zinc-300 text-xs">
-							3-4-3
+							PHP & MySQL
 						</span>
 					</div>
 				</div>
